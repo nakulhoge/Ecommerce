@@ -57,6 +57,9 @@ const MyNavbar = ({ searchQuery, setSearchQuery }) => {
             <NavLink as={Link} to="/oils">
               Oil
             </NavLink>
+            <NavLink as={Link} to="/tryit">
+              tryit
+            </NavLink>
             {isLoggedIn ? (
               <>
                 <NavLink as={Link} to="/logout" onClick={LogoutUser}>

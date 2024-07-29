@@ -26,6 +26,7 @@ import Admin_Address from "./Pages/Admin_Address";
 import Admin_Orders from "./Pages/Admin_Orders";
 import AdminUsers from "./Pages/AdminUsers";
 import { UseAuth } from './store/auth';
+import Try from "./Components/Try";
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path="/oils" element={<Oil searchQuery={searchQuery} />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/tryit" element={<Try/>} />
         <Route path="/admin_login" element={<Admin />} />
         <Route path="/admin_panel" element={<AdminLayout />} >
             <Route path="users" element={<AdminUsers/>}/>

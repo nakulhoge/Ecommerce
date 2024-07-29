@@ -1,0 +1,30 @@
+.image-scroll-container {
+    display: flex;
+    overflow: hidden; /* Hide the scrollbar */
+    scroll-behavior: smooth;
+  }
+  
+  .image-scroll-container .image-col {
+    flex: 0 0 auto;
+    padding: 10px;
+  }
+  
+  .image-scroll-container .image-col img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .navigation-buttons button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
